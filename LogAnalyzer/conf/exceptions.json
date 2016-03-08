@@ -1,0 +1,10 @@
+{
+	"All": {
+      "Exception": "WARNING",
+      "Info": "INFO"
+    },
+	"All/Exception": {
+      "Fail On": "Fail on",
+      "Skip Msg": "Skip one message"
+    }
+}
