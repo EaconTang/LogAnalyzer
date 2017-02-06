@@ -10,8 +10,6 @@
 - 将配置文件转换为统一的数据结构，实现支持不同格式的配置文件（包括ini/json/yaml）
 - 通过ini配置查找的样式（相当于linux命令行grep的内容），单个属性支持配置为正则、配置为多个样式（多个样式间可以是AND或OR逻辑）
 - 支持通过指定日期时间段，同时分析多个日志文件
-- 独立实现和开启域名信息统计
-- 利用python的generator特性，实现文件生成器，不仅节约内存，而且加快了读取速度，同时也能支持读取超大日志文件了（G级别）
 
 
 参数说明：
@@ -125,5 +123,7 @@
 - 上述两种视图，默认是显示所有统计分析的错误类型，但也可以单独点击查看某几个错误统计的饼状图和走势图。
 
 ![](http://qn.tangyingkang.com/image/loganalyzer/piechart.png)  
+原图链接：[http://qn.tangyingkang.com/image/loganalyzer/piechart.png](http://qn.tangyingkang.com/image/loganalyzer/piechart.png)  
 
 ![](http://qn.tangyingkang.com/image/loganalyzer/linechart.png)
+原图链接：[http://qn.tangyingkang.com/image/loganalyzer/linechart.png](http://qn.tangyingkang.com/image/loganalyzer/linechart.png)  
